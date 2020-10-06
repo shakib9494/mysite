@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background-img.jpg);
+    background-size: cover;
+}
+.container{
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    background: white;
+    text-align: center;
+    padding: 0px 40px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    margin-top: 24px;
+    border:5px solid #e62926;
+    border-radius: 50%;
+}
+input.emailbox , input.passwordbox{
+    width: 75%;
+    outline: none;
+    padding: 12px 35px;
+    border: 2px solid #e62926;
+    border-radius: 20px;
+}
+i.fas{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 11px;
+    color: #e62926;
+}
+.container h1{
+    font-family: sans-serif;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    color: #e62926;
+}
+button.btn{
+    background: #e62926;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
